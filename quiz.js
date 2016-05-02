@@ -1,3 +1,5 @@
+/* checks if all questions have been answered */
+
 function submit_check()
 {
     var namecheck = document.forms["quiz"]["q9"].value;
