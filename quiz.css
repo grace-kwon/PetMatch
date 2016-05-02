@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400italic);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+fieldset {
+	margin-bottom: 50px;
+	border: 2px solid #BFBFBF;
+	font-size: 14pt;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40pt;
+	font-family: 'Oswald', sans-serif;
+}
+
+#quiz-desc {
+	margin: 0;
+	width: 100%;
+	height: 210px;
+	background-color: #ededed;
+	text-align: center;
+	line-height: 15px;
+	padding-top: 35px;
+	color: #343434;
+	font-family: 'Noto Serif', serif;
+	font-size: 14pt;
+	line-height: 28px;
+}
+
+input[type="text"] {
+	border: none;
+	outline:0px !important;
+    -webkit-appearance:none;
+    font-size: 14pt;
+    font-family: 'Arvo', serif;
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #343434;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.finishquiz {
+    background-color: #4c4c4c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pt;
+    margin: 14px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline:0px !important;
+    -webkit-appearance:none;
+    font-family: 'Droid Serif', serif;
+}
+
+.finishquiz:hover {
+    background-color: #ff672b;
+    color: white;
+}
