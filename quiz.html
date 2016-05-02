@@ -24,13 +24,13 @@
   <div id="quiz-desc">
       <h1>PetMatch Quiz</h1>
       <p>Which pet is right for you?<br>
-      You are just 8 questions away from the answer!</p>
+      You are 8 questions away from the answer!</p>
      </div>
 
-  <div id="wrapper">
+  <div id="content">
 
   	<div class="mytext">
-      <div class="lefttext">
+
       <form name="quiz" onsubmit="return submit_check();" method="post" action="quiz-submit.php">
         
         <fieldset>
@@ -105,8 +105,8 @@
           <legend>Tell us your name!</legend>
             <input type="text" name="q9" size="16" placeholder="Your Name"><br>
         </fieldset>
-      </div>
-        <input class="submitquizz" type="submit" value="Submit" onClick="submitQuiz()">
+
+        <input type="submit" value="Submit" onClick="submitQuiz()">
 
       </form>
 
