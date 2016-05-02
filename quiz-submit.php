@@ -162,7 +162,8 @@ $animals = array (
     ),
 );
 
-// choose a animal base on the awner
+// choose a animal based on the answer
+// pick 1 animal randomly from qualifying animals
 $rnd = rand() % count($names);
 
 $choose_animal_name = $names[$rnd];
