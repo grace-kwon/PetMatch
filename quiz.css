@@ -23,7 +23,7 @@ h1 {
 #quiz-desc {
 	margin: 0;
 	width: 100%;
-	height: 200px;
+	height: 210px;
 	background-color: #ededed;
 	text-align: center;
 	line-height: 15px;
@@ -31,7 +31,7 @@ h1 {
 	color: #343434;
 	font-family: 'Noto Serif', serif;
 	font-size: 14pt;
-	line-height: 25px;
+	line-height: 28px;
 }
 
 input[type="text"] {
@@ -44,4 +44,36 @@ input[type="text"] {
     padding: 5px;
     margin-bottom: 10px;
     color: #343434;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.finishquiz {
+    background-color: #4c4c4c;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pt;
+    margin: 14px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline:0px !important;
+    -webkit-appearance:none;
+    font-family: 'Droid Serif', serif;
+}
+
+.finishquiz:hover {
+    background-color: #ff672b;
+    color: white;
 }
