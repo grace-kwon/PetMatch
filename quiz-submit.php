@@ -173,7 +173,7 @@ $choose_animal = $animals[$choose_animal_name];
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Result</title>
+	<title>Result | PetMatch</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -181,7 +181,7 @@ $choose_animal = $animals[$choose_animal_name];
 
 	<div id="header">
     <div class="nav">
-    	<span class="home"><a href="/petmatch">PetMatch</a></span>
+    	<span class="home"><a href="/PetMatch">PetMatch</a></span>
       <ul>
         <li class="quiz"><a href="warning.html">Take the Quiz</a></li>
         <li class="credit"><a href="credit.html">Credits</a></li>
