@@ -7,7 +7,7 @@ function submit_check()
         alert("Name must be filled out!");
         return false;
     }
-    else if(questions.length < 8) {
+    else if(questions.length < 7) {
         alert("All questions must be answered!");
         return false;
     }
